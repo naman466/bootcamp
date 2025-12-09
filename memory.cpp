@@ -101,10 +101,6 @@ public:
     }
 };
 
-
-// ------------------
-// Example Usage
-// ------------------
 int main() {
     MemoryManager mm;
 
