@@ -1,4 +1,0 @@
-Hello world.
-Here is some more text to practice on.
-Neovim is better than VS Code.
-End of the file.
