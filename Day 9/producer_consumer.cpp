@@ -12,7 +12,8 @@ public:
 
   void wait() {
     while (true) {
-      int expected = count.load() if (expected > 0) {
+      int expected = count.load();
+      if (expected > 0) {
         if (count.compare_exchange_weak(expected, expected - 1)) {
           break;
         }
